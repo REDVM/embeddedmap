@@ -1,0 +1,39 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="leaflet/leaflet.css" />
+	<link href="style.css" type="text/css" rel="stylesheet">
+	<title>MathsInfoMap</title>
+</head>
+<body>
+	<div id="box">
+		<div id="title">
+			MathsInfoMap
+		</div>
+		<p>Interactive map of companies working on the embedded systems, electronics and industrial market.</p>
+		<p style="text-align:left;padding-left:70px;"><span style="font-size:22px;">13</span> companies <br /><span style="font-size:22px;">14</span> locations</p>
+		<p>
+		<span onclick="document.getElementById('popup').style.visibility = 'visible';"  style="background-color: #0078A8;padding:10px;cursor:pointer;color:white;"><strong>Show the full list</strong></span>
+		        <br /> <br />
+			<a href="" onclick="return showAllAround();">Show all</a> - <a href="" onclick="return hideAllAround();">Hide all</a>
+			<br />
+			<a target="_blank" href="http://www.yoannsculo.fr/embeddedmap-carte-societes-systemes-embarques/">Contribute</a> - <a target="_blank" href="https://github.com/yoannsculo/embeddedmap">Fork me</a> - <a target="_blank" href="http://www.yoannsculo.fr/a-propos">Contact</a>
+		</p>
+	</div>
+
+	<div id="map" class="map" style="height: 100%; border:0;"></div>
+	<script src="leaflet/leaflet.js"></script>
+
+	<script src="js/map.js"></script>
+
+	<div id="popup">
+		<a style="float:right;cursor:pointer;" onclick="document.getElementById('popup').style.visibility = 'hidden';">Close</a>
+		<div id="content">
+			<ul><strong>France</strong><br/><li class="FRA"><strong><a target="_blank" href="http://www.atm-vision.fr/" title="17400 Saint Jean d'Angely, France">ATM Inspection Technologie Vision</a></strong> - Radiographie, Rayons X pour le contrôle industriel. <a href="" onclick="return locateCompany(map, 45.9591, -0.548887, 0);"><strong>Locate</strong></a></li><li class="FRA"><strong><a target="_blank" href="http://www.asv.fr/" title="92310 SEVRES, France">AUTOMATIC SEA VISION</a></strong> - Traitement d'images appliqué à la surveillance maritime. <a href="" onclick="return locateCompany(map, 48.8123575, 2.2130857, 1);"><strong>Locate</strong></a></li><li class="FRA"><strong><a target="_blank" href="http://www.asv.fr/" title="92310 SEVRES, France">AUTOMATIC SEA VISION</a></strong> - Traitement d'images appliqué à la surveillance maritime. <a href="" onclick="return locateCompany(map, 48.8123575, 2.2130857, 2);"><strong>Locate</strong></a></li><li class="FRA"><strong><a target="_blank" href="http://www.bvs-tech.com/" title="75013 Paris, France">BVS Brain Vision Systems</a></strong> - Traitement d'images et processeurs spécialisés. <a href="" onclick="return locateCompany(map, 48.82431, 2.24442, 3);"><strong>Locate</strong></a></li><li class="FRA"><strong><a target="_blank" href="http://www.eos-innovation.eu/" title="91024 Évry Cedex, France">EOS Innovation</a></strong> - Robotique pour la surveillance. <a href="" onclick="return locateCompany(map, 48.632852, 2.435548, 4);"><strong>Locate</strong></a></li><li class="FRA"><strong><a target="_blank" href="http://www.vsg3d.com/" title="33708, France">FEI Visualization Sciences Group</a></strong> - Visualisation de données 3D. <a href="" onclick="return locateCompany(map, 44.8373792, -0.6863218, 5);"><strong>Locate</strong></a></li><li class="FRA"><strong><a target="_blank" href="http://www.firstlight.fr/" title="13590 Meyreuil, France">First Light Imaging</a></strong> - Traitement d'images. <a href="" onclick="return locateCompany(map, 43.4714787, 5.4910863, 6);"><strong>Locate</strong></a></li><li class="FRA"><strong><a target="_blank" href="http://www.hgh.fr/" title="91430 Igny, France">HGH Systèmes Infrarouges</a></strong> -  <a href="" onclick="return locateCompany(map, 48.7322329, 2.2349916, 7);"><strong>Locate</strong></a></li><li class="FRA"><strong><a target="_blank" href="http://www.isotropix.com/" title="34000 Montpellier, France">Isotropix</a></strong> - Logiciels pour le cinéma, 3D, FX. <a href="" onclick="return locateCompany(map, 43.609256, 3.884187, 8);"><strong>Locate</strong></a></li><li class="FRA"><strong><a target="_blank" href="http://www.rd-vision.com/" title="94100 Saint Maur des Fossés, France">R&D Vision</a></strong> - Analyse d'images. <a href="" onclick="return locateCompany(map, 48.7995282, 2.4744317, 9);"><strong>Locate</strong></a></li><li class="FRA"><strong><a target="_blank" href="http://www.morpho.com/" title="95520 Osny, France">Safran Morpho</a></strong> - Logiciels de reconnaissance d'iris et d'empreintes. Reconnaissance biométrique. <a href="" onclick="return locateCompany(map, 49.052796, 2.064769, 10);"><strong>Locate</strong></a></li><li class="FRA"><strong><a target="_blank" href="http://www.morpho.com/" title="92130 Issy-les-Moulineaux, France">Safran Morpho Siege</a></strong> - Logiciels de reconnaissance d'iris et d'empreintes. Reconnaissance biométrique. <a href="" onclick="return locateCompany(map, 48.8324928, 2.2674744, 10);"><strong>Locate</strong></a></li><li class="FRA"><strong><a target="_blank" href="http://www.sagem.com/" title="92659 Boulogne-Billancourt Cedex - France">Safran Sagem Siege</a></strong> -  <a href="" onclick="return locateCompany(map, 48.725236, 2.266715, 12);"><strong>Locate</strong></a></li><li class="FRA"><strong><a target="_blank" href="http://www.synapsys.fr/" title="13013 Marseille, France">Synapsys</a></strong> - Matériel medical <a href="" onclick="return locateCompany(map, 43.3448065, 5.4305844, 13);"><strong>Locate</strong></a></li></ul>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+{
+    "country": {
+        "name": "France",
+        "iso": "FRA"
+    },
+    "companies": [
+        {
+            "name": "ATM Inspection Technologie Vision",
+            "url": "http://www.atm-vision.fr/",
+            "description": "Radiographie, Rayons X pour le contrôle industriel.",
+            "locations": [
+                {
+                    "name": "",
+                    "postal_address": "5 Rue Des Vieilles Fées, 17400 Saint Jean d'Angely, France",
+                    "gps_coordinates": "45.9591/-0.548887"
+                }
+            ]
+        },
+        {
+            "name": "AUTOMATIC SEA VISION",
+            "url": "http://www.asv.fr/",
+            "description": "Traitement d'images appliqué à la surveillance maritime.",
+            "locations": [
+                {
+                    "name": "",
+                    "postal_address": "65, rue de la Garenne, 92310 SEVRES, France",
+                    "gps_coordinates": "48.8123575/2.2130857"
+                }
+            ]
+        },
+        {
+            "name": "AUTOMATIC SEA VISION",
+            "url": "http://www.asv.fr/",
+            "description": "Traitement d'images appliqué à la surveillance maritime.",
+            "locations": [
+                {
+                    "name": "",
+                    "postal_address": "65, rue de la Garenne, 92310 SEVRES, France",
+                    "gps_coordinates": "48.8123575/2.2130857"
+                }
+            ]
+        },
+        {
+            "name": "BVS Brain Vision Systems",
+            "url": "http://www.bvs-tech.com/",
+            "description": "Traitement d'images et processeurs spécialisés.",
+            "locations": [
+                {
+                    "name": "",
+                    "postal_address": "23 rue du Dessous des Berges, 75013 Paris, France",
+                    "gps_coordinates": "48.82431/2.24442"
+                }
+            ]
+        },
+        {
+            "name": "EOS Innovation",
+            "url": "http://www.eos-innovation.eu/",
+            "description": "Robotique pour la surveillance.",
+            "locations": [
+                {
+                    "name": "",
+                    "postal_address": "7 Rue Montespan, 91024 Évry Cedex, France",
+                    "gps_coordinates": "48.632852/2.435548"
+                }
+            ]
+        },
+        {
+            "name": "FEI Visualization Sciences Group",
+            "url": "http://www.vsg3d.com/",
+            "description": "Visualisation de données 3D.",
+            "locations": [
+                {
+                    "name": "",
+                    "postal_address": "3, Impasse Rudolf Diesel, Bât A - BP 50227, Mérignac Cedex, F-33708, France",
+                    "gps_coordinates": "44.8373792/-0.6863218"
+                }
+            ]
+        },
+        {
+            "name": "First Light Imaging",
+            "url": "http://www.firstlight.fr/",
+            "description": "Traitement d'images.",
+            "locations": [
+                {
+                    "name": "",
+                    "postal_address": "100 route des Houilleres, 13590 Meyreuil, France",
+                    "gps_coordinates": "43.4714787/5.4910863"
+                }
+            ]
+        },
+        {
+            "name": "HGH Systèmes Infrarouges",
+            "url": "http://www.hgh.fr/",
+            "description": "",
+            "locations": [
+                {
+                    "name": "",
+                    "postal_address": "10 Rue Maryse Bastié, 91430 Igny, France",
+                    "gps_coordinates": "48.7322329/2.2349916"
+                }
+            ]
+        },
+        {
+            "name": "Isotropix",
+            "url": "http://www.isotropix.com/",
+            "description": "Logiciels pour le cinéma, 3D, FX.",
+            "locations": [
+                {
+                    "name": "",
+                    "postal_address": "1 Rue Francis Ponge, 34000 Montpellier, France",
+                    "gps_coordinates": "43.609256/3.884187"
+                }
+            ]
+        },
+        {
+            "name": "R&D Vision",
+            "url": "http://www.rd-vision.com/",
+            "description": "Analyse d'images.",
+            "locations": [
+                {
+                    "name": "",
+                    "postal_address": "64, rue Bourdignon, Lot 13 - 1er étage, 94100 Saint Maur des Fossés, France",
+                    "gps_coordinates": "48.7995282/2.4744317"
+                }
+            ]
+        },
+        {
+            "name": "Safran Morpho",
+            "url": "http://www.morpho.com/",
+            "description": "Logiciels de reconnaissance d'iris et d'empreintes. Reconnaissance biométrique.",
+            "locations": [
+                {
+                    "name": "",
+                    "postal_address": "18 chaussée Jules César, 95520 Osny, France",
+                    "gps_coordinates": "49.052796/2.064769"
+                },
+                {
+                    "name": "Safran Morpho Siege",
+                    "postal_address": "11 boulevard Gallieni, 92130 Issy-les-Moulineaux, France",
+                    "gps_coordinates": "48.8324928/2.2674744"
+                }
+            ]
+        },
+        {
+            "name": "Safran Sagem",
+            "url": "http://www.sagem.com/",
+            "description": "",
+            "locations": [
+                {
+                    "name": "Safran Sagem Siege",
+                    "postal_address": "Sagem - Arcs de Seine - 18/20 quai du Point du Jour - 92659 Boulogne-Billancourt Cedex - France",
+                    "gps_coordinates": "48.725236/2.266715"
+                }
+            ]
+        },
+        {
+            "name": "Synapsys",
+            "url": "http://www.synapsys.fr/",
+            "description": "Matériel medical",
+            "locations": [
+                {
+                    "name": "",
+                    "postal_address": "HOTEL TECHNOPTIC, 2 rue Marc Donadille, 13013 Marseille, France",
+                    "gps_coordinates": "43.3448065/5.4305844"
+                }
+            ]
+        }
+    ]
+}
