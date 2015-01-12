@@ -41,6 +41,18 @@
             ]
         },
         {
+            "name": "Bioaxial",
+            "url": "http://www.bioaxial.com",
+            "description": "Super-resolution instrument for the life sciences and medical research communities",
+            "locations": [
+                {
+                    "name": "",
+                    "postal_address": "24 rue du Faubourg Saint Jacques 75014 Paris",
+                    "gps_coordinates": "48.83746/2.33852"
+                }
+            ]
+        },
+        {
             "name": "BVS Brain Vision Systems",
             "url": "http://www.bvs-tech.com/",
             "description": "Traitement d'images et processeurs spécialisés.",
@@ -113,6 +125,18 @@
             ]
         },
         {
+            "name": "iXBLue",
+            "url": "http://www.ixblue.com/",
+            "description": "Navigation maritime, cartographie.",
+            "locations": [
+                {
+                    "name": "",
+                    "postal_address": "52 avenue de l'Europe, F-78160 Marly le Roi, France",
+                    "gps_coordinates": "48.8754293/2.099853"
+                }
+            ]
+        },
+        {
             "name": "R&D Vision",
             "url": "http://www.rd-vision.com/",
             "description": "Analyse d'images.",
@@ -121,6 +145,18 @@
                     "name": "",
                     "postal_address": "64, rue Bourdignon, Lot 13 - 1er étage, 94100 Saint Maur des Fossés, France",
                     "gps_coordinates": "48.7995282/2.4744317"
+                }
+            ]
+        },
+        {
+            "name": "RSI Video Technologies",
+            "url": "http://www.videofied.com",
+            "description": "Wireless, self-powered security solutions for commercial, residential and government customers",
+            "locations": [
+                {
+                    "name": "",
+                    "postal_address": "25, rue Jacobi-Netter  67200 Strasbourg",
+                    "gps_coordinates": "48.58714/7.70677"
                 }
             ]
         },
